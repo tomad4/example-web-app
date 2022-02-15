@@ -25,7 +25,7 @@ jobs:
     - name: Download site content
       uses: actions/download-artifact@v2
       with:
-        name: site-build
+        name: static-site
     - name: View content
       run: ls -R
     - name: Create GitHub release
